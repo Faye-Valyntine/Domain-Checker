@@ -6,12 +6,6 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-/**
- * A URL domain blocker.
- * 
- * @author Skyler Barringer
- * 5/18/23
- */
 public class DomainBlocker
 {
 	private TreeSet<String> blockedSet;
